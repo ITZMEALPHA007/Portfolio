@@ -40,14 +40,9 @@
     --item5-opacity: 0;
 }
 
-html, body {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 html {
     font-size: 60%;
+    overflow-x: hidden;
 }
 
 body {
@@ -903,30 +898,6 @@ span{
         width: 70%;
     }
 
-    .projects-box {
-        padding: 0 2rem;
-        scale: 0.9;
-    }
-
-    .project-card {
-        padding: 25px 25px;
-        min-height: auto;
-    }
-
-    .projects-box img {
-        width: 15rem;
-        height: 15rem;
-    }
-
-    .project-card h2 {
-        font-size: 2.2rem;
-    }
-
-    .project-card p {
-        font-size: 1.4rem;
-        line-height: 1.6;
-    }
-
 }
 
 @media (max-width: 768px) {
@@ -1018,6 +989,10 @@ span{
         scale: 1;
     }
 
+    .projects-box{
+        scale: 0.8;
+    }
+
     .wrapper{
         grid-template-columns: 1fr;
     }
@@ -1027,21 +1002,6 @@ span{
     }
     .contact form{
         flex-direction: column;
-    }
-
-    .wrapper {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-
-    .project-card {
-        max-width: 95%;
-        margin: 0 auto;
-    }
-
-    .projects-box img {
-        width: 18rem;
-        height: 18rem;
     }
 
 }
@@ -1055,28 +1015,19 @@ span{
 
     .home{
         gap: 6rem;
-        margin-left:-5%;
         width: 100%;
-        position: relative;
     }
 
-    
     .home-img img{
         width: 40vw;
-        left: 30%;
-    }
-
-    .hero{
-        display: flex;
-        flex-direction: column;
     }
 
     .hero h1{
-        font-size: 5.5rem;
+        font-size:500%;
     }
 
     .hero h3{
-        font-size: 3rem;
+        font-size: 250%;
     }
 
     .wrapper{
@@ -1094,22 +1045,6 @@ span{
 
     .introduce .des{
         width:50%;
-    }
-
-    .projects-box {
-        padding: 0 4%;
-    }
-
-    .wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2.5rem;
-        justify-items: center;
-    }
-
-    .project-card {
-        max-width: 100%;
-        min-height: auto;
-        padding: 30px 40px;
     }
 
 }
@@ -1130,9 +1065,5 @@ span{
     .header{
         margin-left: -10%;
         width: 120%;
-    }
-    .navbar{
-        position: relative;
-        left:-10%
     }
 }
