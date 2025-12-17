@@ -900,6 +900,7 @@ span{
 
     .projects-box {
         padding: 0 2rem;
+        scale: 0.9;
     }
 
     .project-card {
@@ -1121,5 +1122,9 @@ span{
     .header{
         margin-left: -10%;
         width: 120%;
+    }
+    .navbar{
+        position: relative;
+        left:-10%
     }
 }
