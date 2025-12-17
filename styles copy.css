@@ -40,9 +40,14 @@
     --item5-opacity: 0;
 }
 
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 html {
     font-size: 60%;
-    overflow-x: hidden;
 }
 
 body {
@@ -1050,12 +1055,15 @@ span{
 
     .home{
         gap: 6rem;
-        margin-left:-10%;
-        width: 120%;
+        margin-left:-5%;
+        width: 100%;
+        position: relative;
     }
 
+    
     .home-img img{
         width: 40vw;
+        left: 30%;
     }
 
     .hero{
