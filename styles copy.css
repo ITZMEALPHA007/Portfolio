@@ -903,11 +903,7 @@ span{
         width: 70%;
     }
 
-    .projects-container{
-        scale: 0.8;
-    }
 
-}
 
 @media (max-width: 768px) {
 
