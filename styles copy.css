@@ -715,8 +715,13 @@ span{
     transform: scale(1.05) translateY(-10px);
 }
 
+.project-card p{
+    font-size: 1.5rem;
+}
+
 .project-card h2{
     font-size: 2.8rem;
+    padding-bottom: 1rem;
 }
 
 .testimonial-item p{
@@ -829,7 +834,7 @@ span{
         content: 'Web Designer';
     }
     21%, 40%{
-        content: 'UI/UX Designer';
+        content: 'Backend Developer';
     }
     41%, 60%{
         content: 'Software Developer';
@@ -903,7 +908,11 @@ span{
         width: 70%;
     }
 
+    .projects-container{
+        scale: 0.8;
+    }
 
+}
 
 @media (max-width: 768px) {
 
@@ -926,10 +935,12 @@ span{
         background: rgba(0, 0, 0, 0.9);
         padding: 2rem 0;
         z-index: 99;
+        border-bottom: 3px solid var(--main-color);
     }
 
     .navbar a{
         margin: 2rem 0;
+        padding-left: 1rem;
         font-size: 2.2rem;
     }
 
@@ -987,11 +998,7 @@ span{
     }
 
     .introduce .topic{
-        position: relative;
-        top: 500px;
-        left: 35%;
-        white-space: nowrap;
-        scale: 1;
+        display: none;
     }
 
     .projects-box{
